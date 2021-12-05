@@ -9,10 +9,8 @@ def aim(file):
         if instruction[0] == "forward":
             horizontal += int(instruction[1])
             depth += aim * int(instruction[1])
-            continue
         elif instruction[0] == "down":
             aim += int(instruction[1])
-            continue
         else:
             aim -= int(instruction[1])
 
