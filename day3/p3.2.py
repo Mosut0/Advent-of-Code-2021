@@ -41,7 +41,4 @@ def binary_diagnostic2(file):
 
         k += 1
 
-    return int(oxygen[0], 2) * int(CO2[0], 2)
-
-
-print(binary_diagnostic2("data3.txt"))
+    print(int(oxygen[0], 2) * int(CO2[0], 2))

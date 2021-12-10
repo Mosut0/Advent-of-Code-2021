@@ -8,5 +8,5 @@ def sonar_sweep(file):
         if int(numbers[i]) > int(numbers[i-1]):
             counter += 1
 
-    return counter
+    print(counter)
 

@@ -19,4 +19,4 @@ def binary_diagnostic(file):
             gamma += "1"
             epsilon += "0"
 
-    return int(gamma, 2) * int(epsilon, 2)
+    print(int(gamma, 2) * int(epsilon, 2))

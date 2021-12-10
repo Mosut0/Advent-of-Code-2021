@@ -14,4 +14,4 @@ def aim(file):
         else:
             aim -= int(instruction[1])
 
-    return horizontal * depth
+    print(horizontal * depth)
