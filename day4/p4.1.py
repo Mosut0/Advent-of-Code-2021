@@ -7,8 +7,8 @@ def check_row(card):
 
 
 def check_column(card):
-    for i in range(len(card[0])):
-        column = [card[i], card[i+5], card[i+10], card[i+15], card[i+20]]
+    for i in range(5):
+        column = [card[i], card[i + 5], card[i + 10], card[i + 15], card[i + 20]]
         if column.count("") == 5:
             return True
     return False
