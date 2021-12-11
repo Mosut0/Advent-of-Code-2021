@@ -28,7 +28,7 @@ def generate_cards(board):
     return cards
 
 
-def giant_squid(file):
+def giant_squid2(file):
     drawn = open(file).read().splitlines()[0].split(',')
     board = open(file).read().splitlines()[2:]
     cards = generate_cards(board)
